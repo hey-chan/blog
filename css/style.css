@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#bg {
+  background-image: url("https://media.pitchfork.com/photos/5929a790b1335d7bf16990a4/1:1/w_600/38e1b6ab.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+nav {
+  font-size: 20px;
+  height: 1.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 2em;   
+}
+
+header {
+  margin: 0 1.5em;
+  padding: 1.5em 1.5em;
+  
+}
+
+
+.brief-desc {
+  display: flex;
+  width: 80%;
+}
